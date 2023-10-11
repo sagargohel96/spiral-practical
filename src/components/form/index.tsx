@@ -60,9 +60,10 @@ const Form = () => {
       if (id) {
         await editBlog(values, id as string);
         router.push("/blog");
+      } else {
+        await createBlog(values);
+        router.push("/blog");
       }
-      await createBlog(values);
-      router.push("/blog");
     },
     [id, router]
   );

@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    height: 60px;
+    border-bottom: 2px solid #eee;
+    margin-bottom: 8px;
+    align-items: center; 
+    justify-content: center;
+    gap: 30px;
+    position: sticky;
+    top: 0;
+  }
+
+  .navItemWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-weight: 600;
+    font-size: 20;
+    cursor: pointer;
+    padding : 10px;
+    width: 130px;
+  }
+
+  .navItemWrapper:hover{
+    background-color: #eee;
+  }
